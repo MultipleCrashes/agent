@@ -21,7 +21,7 @@ from oslo_utils import reflection
 from six.moves.urllib import parse
 
 from neutrondeps._i18n import _
-from neutrondeps import cache_utils as cache_utils_config
+#from neutrondeps import cache_utils as cache_utils_config
 
 
 LOG = logging.getLogger(__name__)
