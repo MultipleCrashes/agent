@@ -24,7 +24,7 @@ from oslo_config import cfg
 from oslo_log import log as logging
 
 import xapi
-from quark.cache import security_groups_client as sg_cli
+from quarkdeps import security_groups_client as sg_cli
 
 CONF = cfg.CONF
 LOG = logging.getLogger(__name__)
