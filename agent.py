@@ -17,9 +17,9 @@ import random
 import sys
 import time
 
-from neutron._i18n import _
-from neutron.common import config
-from neutron.common import utils as n_utils
+from neutrondeps._i18n import _
+from neutrondeps import config
+from neutrondeps import utils as n_utils
 from oslo_config import cfg
 from oslo_log import log as logging
 
