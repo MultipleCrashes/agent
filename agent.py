@@ -23,7 +23,7 @@ from neutrondeps import utils as n_utils
 from oslo_config import cfg
 from oslo_log import log as logging
 
-from quark.agent import xapi
+import xapi
 from quark.cache import security_groups_client as sg_cli
 
 CONF = cfg.CONF
